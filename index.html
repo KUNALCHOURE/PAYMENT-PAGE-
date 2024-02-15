@@ -1,0 +1,55 @@
+<html>
+ <head>
+    <title>PAYMENT PAGE</title>  
+    
+    <style>
+        h1{    
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="1.css">
+ </head>
+
+ <BOdy>
+    <H1>PAYMENT PROCESS</H1>
+<HR>
+    <FORM ACTION="">
+        <H2 style=>CONTACT INFO</H2>  <!-- inline css-->
+        <p>Required feilds are marked as *</p>
+        <P>NAME: *<INPUt type="text" name="NAME" required></INPUt></P>  <!--requierd atribute make it compulsary to fill it-->
+        <fieldset>
+            <legend>gender*</legend>
+        <P>
+            
+             MALE <INPUt type="radio" name="gender" required></INPUt>
+            feMALE <INPUt type="radio" name="gender" required></INPUt>
+        </P>
+              </fieldset>
+        <p>
+          Address:  <textarea name="Address" id="" cols="50" rows="20"></textarea>
+        </p>
+        <p>EMAIL: <input type="email" name="email"></p>
+        <p>Pincode*: <input type="number" name="pincodd" required></p>
+<hr>
+<h2>Payment details</h2> 
+
+<p>CARD TYPE*: <select name="card_type" id="card_type" required>
+ <option value="">select a card type</option>
+ <option value="visa">visa</option>
+ <option value="Mastercard">mastercard</option>
+ <option value="rupay">rupay</option>
+
+</select></p>
+<p>Card no*: <input type="number"name="card no" required></p>
+
+<p>Card_expiry_date* <input type="date"name="Card_expiry_date" required></p>
+<p>cvv* <input type="password" name="cvv" required></p>
+<input type="submit" value="Pay Now">
+
+
+
+
+
+    </FORM>
+ </BOdy>
+</html>

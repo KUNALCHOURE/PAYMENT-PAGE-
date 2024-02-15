@@ -1,0 +1,30 @@
+h1{                         /*style using element */
+    font-size:x-large ;
+    text-align: center;
+    color: orange;
+}
+
+FORM{
+    color:white
+}
+
+h2{
+    color: orange;
+}
+body{
+    background-color: #232323;
+}
+p{
+    text-align: left;
+    
+}
+
+#paragraph{              /* to style using id we have to use #*/
+
+    color: coral;
+}
+
+.paraclass{               /*to style using class we have to use .*/
+    background-color:yellow ;
+}
+
